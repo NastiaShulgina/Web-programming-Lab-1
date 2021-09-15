@@ -17,4 +17,4 @@ P.S If your semester project has a landing website that satisfies the requiremen
 then you could skip this work by bringing your website for an assessment.<br>
 Note: The above goes only for those students. who were actually responsible for the 
 website development. The whole team cannot use the right to skip this work!<br>
-Link to figma example of task.
+Link to figma example of task: https://www.figma.com/file/vwiwu6GnDphlI25vncvl3F/LabWork1-V3
