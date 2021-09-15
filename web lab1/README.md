@@ -1,6 +1,6 @@
 Description: Create a landing page following the given design (Figma). <br>
 Requirements:<br>
-● Use of semantic tags (<header>, <nav>, <ul>, <footer>, etc.) 
+● Use of semantic tags(header, nav, ul, footer, etc.) 
 wherever is necessary <br>
 ● All fonts, colour palette, elements sizes must strictly match the 
 design.<br>
