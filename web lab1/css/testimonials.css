@@ -1,0 +1,71 @@
+.testimonials {
+    width: 100%;
+    height: 774px;
+    background: #F8F8F8;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.testimonials-text {
+    padding-left: 281px;
+}
+
+.testimonials-title {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    width: 481px;
+    height: 50px;
+    margin-top: 79px;
+}
+
+.testimonials-text ul {
+    padding-top: 145px;
+    padding-left: 0px;
+    padding-bottom: 30.05px;
+}
+
+.star img {
+    margin-right: 15.88px;
+}
+
+.quote {
+    width: 450px;
+    height: 144px;
+    font-family: 'Mulish';
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.photo-of-founder {
+    padding-left: 184px;
+    padding-top: 189px;
+    width: 384px;
+    height: 491px; 
+}
+
+.edward-newgate {
+    font-family: 'Inter';
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    width: 183px;
+    height: 48px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.founder-circle {
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+    width: 124px;
+    height: 48px;
+    margin-top: 0px;
+}

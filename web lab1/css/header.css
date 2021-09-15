@@ -1,0 +1,126 @@
+.header {
+    font-family: 'Inter';
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav ul {
+    margin-top: 48px;
+    display: flex;
+}
+
+.header__logo-ellipse {
+    margin-top: 37px;
+}
+
+.header__nav-item a{
+    margin-right: 35px;
+    color:#B8BECD;;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19,36px;
+}
+
+.header__nav-home a{
+    margin-right: 35px;
+    color:#202336;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19,36px;
+}
+
+.buttons__login {
+    margin-right: 18px;
+    color: #FB8F1D;
+    width: 132px;
+    height: 44px;
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FFFFFF;
+    cursor:pointer;
+}
+
+
+
+.buttons__register {
+    margin-right: -200px;
+    font-weight: 500;
+    size: 15px;
+    background: #FB8F1D;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 132px;
+    height: 44px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.header__nav-item a:hover{
+    color:rgb(245, 10, 10);
+}
+
+.header__nav-home a:hover{
+    color:rgb(202, 245, 10);
+}
+
+.buttons__login:hover{
+    color:rgb(10, 194, 148);
+}
+
+.guide {
+    font-family: 'Inter';
+    padding-left: 35px;
+    display: flex;
+    padding-bottom: 203px;
+}
+
+.guide__title {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    max-width: 421px;
+    margin-top: 298px;
+}
+
+.guide__paragraph {
+    max-width: 450px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    padding-top: 20px;
+}
+
+.guide__button {
+    color: #FFFFFF;
+    background: #FB8F1D;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    margin-top: 39px;
+    margin-left: 0;
+    width: 164px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer; 
+}
+
+
+.app-pic {
+    width: 599px;
+    height: 542px;
+    margin-right: 80px;
+    margin-top: 146px;
+    padding-left: 80px;
+}

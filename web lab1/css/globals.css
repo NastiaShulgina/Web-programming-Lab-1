@@ -1,0 +1,35 @@
+body {
+    font-family: 'Inter';
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+.header {
+    padding-left: 197px;
+}
+
+a {
+    text-decoration: none;
+    color: #202336;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19,36px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    display: block;
+}
+
+button:hover{
+    color:rgb(203, 250, 238);
+}
+
+
+
