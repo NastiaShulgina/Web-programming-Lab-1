@@ -1,10 +1,11 @@
 body {
     font-family: 'Inter';
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1206px;
 }
 
 .header {
@@ -29,6 +30,30 @@ li {
 
 button:hover{
     color:rgb(203, 250, 238);
+}
+
+@media screen and (max-width:768px) {
+    body {
+        width:100%;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .here, .trending-stories {
+        margin: auto 300px;
+    }
+    .testimonials-text{
+        margin: auto 225px;
+    }
+    .footer .logo-copyright {
+        margin: auto 300px;
+    }
+    .footer .bottom-line {
+        margin: auto 300px;
+    }
+    .footer .social-medias {
+        margin: auto 300px;
+    }
 }
 
 

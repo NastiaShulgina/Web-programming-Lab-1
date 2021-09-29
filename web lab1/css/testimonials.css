@@ -69,3 +69,47 @@
     height: 48px;
     margin-top: 0px;
 }
+
+@media screen and (max-width:768px) {
+    .testimonials {
+        height: 550px;
+    }
+    .testimonials ul {
+        padding: 0;
+    }
+    .testimonials-text {
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
+    .testimonials-image{
+        display: none;
+    }
+    .testimonials li {
+        padding: 0 15px 0 15px;
+        width: 320px;
+    }
+    .star {
+        max-width: 1.7em;
+    }
+    .testimonials-title {
+        width: 290px;
+    }
+    .quote {
+        width: 290px;
+        font-size: 20px;
+    }
+    .edward-newgate{
+        width: 290px;
+        padding-top: 4px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .founder-circle {
+        padding-top: -10px;
+        width: 290px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+}

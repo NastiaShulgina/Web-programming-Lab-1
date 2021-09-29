@@ -10,27 +10,32 @@
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="main.js" defer></script>
 
 </head>
 
+
 <body>
     <section class="here">
-        <header class="header">
-            <div class="container">
-                <nav class="header__nav">
+        <div class="container">
+            <header class="header">
+                <a href="#" class="toggle-button">
+                    <img src="images/menu-icon.svg" alt="Menu icon">
+                </a>
+                <nav id="nav-links" class="header__nav">
                     <ul>
-                        <li class="header__nav-home"><a href="">Home</a></li>
-                        <li class="header__nav-item"><a href="">Destinations</a></li>
-                        <li class="header__nav-item"><a href="">About</a></li>
-                        <li class="header__nav-item"><a href="">Partner</a></li>
+                        <li class="header__nav-home"><a class="header__nav-link" href="">Home</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="">Destinations</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="">About</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="">Partner</a></li>
                     </ul>
                 </nav>
-                <img src="images/logo-ellipse.svg" class="logo-ellipse">
-                <section class="buttons">
+                <img src="images/logo-ellipse.svg" class="logo-ellipse" alt="Logo">
+                <div class="buttons">
                     <button class="buttons__login">Login</button>
                     <button class="buttons__register">Register</button>
-                </section>
-            </div>
+                </div>
+            </header>
             <div class="guide">
                 <div class="guide__left">
                     <h1 class="guide__title">Guides by Thousand Sunny</h1>
@@ -43,8 +48,7 @@
                 <div class="guide__right">
                     <img src="images/app-pic.svg" class="app-pic">
                 </div>
-            </div>
-        </header>
+        </div>
     </section>
     <section class="testimonials">
         <ul>
@@ -106,19 +110,20 @@
                     <h3 class="stories__titles">Surf’s up at these beginner spots around the world</h3>
                     <p class="story-paragraphs">If learning to surf has in on your to- do list for a while, the good
                         news is: it’s never too late...</p>
-                    <div class="story-link"><a href="#!">Read more</a></div>
+                    <div class="story-link"><a href="#">Read more</a></div>
                 </li>
             </ul>
         </section>
     </section>
     <section>
         <footer class="footer">
-            <ul>
+            <ul class="logo-copyright">
                 <li class="footer__logo-ellipse"><img src="images/logo-ellipse.svg" alt="Logo"></li>
                 <li class="copyright">©2020 Thousand Sunny. All rights reserved</li>
             </ul>
             <img class="bottom-line" alt="Line" src="images/line.svg">
-            <ul class="social-media">
+            <img class="iphone-line" alt="Line" src="images/iphone-line.svg">
+            <ul class="social-medias">
                 <li class="social-media__twitter"><img src="images/twitter.svg"></li>
                 <li class="social-media"><img src="images/facebook.svg"></li>
                 <li class="social-media"><img src="images/instagram.svg"></li>
