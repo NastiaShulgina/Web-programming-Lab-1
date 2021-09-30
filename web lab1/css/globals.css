@@ -1,0 +1,60 @@
+body {
+    font-family: 'Inter';
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1206px;
+}
+
+.header {
+    padding-left: 197px;
+}
+
+a {
+    text-decoration: none;
+    color: #202336;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19,36px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    display: block;
+}
+
+button:hover{
+    color:rgb(203, 250, 238);
+}
+
+@media screen and (max-width:768px) {
+    body {
+        width:100%;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .here, .trending-stories {
+        margin: auto 300px;
+    }
+    .testimonials-text{
+        margin: auto 225px;
+    }
+    .footer .logo-copyright {
+        margin: auto 300px;
+    }
+    .footer .bottom-line {
+        margin: auto 300px;
+    }
+    .footer .social-medias {
+        margin: auto 300px;
+    }
+}
+
+
+

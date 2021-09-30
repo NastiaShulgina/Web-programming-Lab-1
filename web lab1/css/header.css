@@ -1,0 +1,254 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+    padding-left: 0;
+}
+
+.container {
+    font-family: 'Inter';
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 197px;
+
+}
+
+.header__menu {
+    display: none;
+}
+
+.header__nav ul {
+    margin-top: 48px;
+    display: flex;
+    padding-left: 0;
+}
+
+.header__logo-ellipse {
+    margin-top: 37px;
+}
+
+.header__nav-item a{
+    margin-right: 35px;
+    color:#B8BECD;;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19,36px;
+}
+
+.header__nav-home a{
+    margin-right: 35px;
+    color:#202336;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19,36px;
+}
+
+.buttons__login {
+    margin-right: 18px;
+    width: 132px;
+    height: 44px;
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FFFFFF;
+    cursor:pointer;
+
+    position: relative;
+    display: inline-block;
+    padding: 2px 5px;
+    color: #FB8F1D;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.buttons__register {
+    margin-right: -200px;
+    font-weight: 500;
+    size: 15px;
+    background: #FB8F1D;
+    border: 1px solid #FFFFFF;
+    width: 132px;
+    height: 44px;
+    border-radius: 8px;
+    cursor:pointer;
+
+    position: relative;
+    display: inline-block;
+    padding: 2px 5px;
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.header__nav-item a:hover{
+    color:rgb(245, 10, 10);
+}
+
+.header__nav-home a:hover{
+    color:rgb(202, 245, 10);
+}
+
+/* .buttons__login:hover{
+    color:rgb(10, 194, 148);
+} */
+
+.guide {
+    font-family: 'Inter';
+    padding-left: 0px;
+    display: flex;
+    padding-bottom: 203px;
+}
+
+.guide__title {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    max-width: 421px;
+    margin-top: 298px;
+}
+
+.guide__paragraph {
+    max-width: 450px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    padding-top: 20px;
+}
+
+.guide__button {
+    color: #FFFFFF;
+    background: #FB8F1D;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    margin-top: 39px;
+    margin-left: 0;
+    width: 164px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer; 
+}
+
+
+.app-pic {
+    width: 599px;
+    height: 542px;
+    margin-right: 80px;
+    margin-top: 146px;
+    padding-left: 80px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    left: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.buttons__login:hover{
+    color: palegoldenrod;
+    background: orange;
+    box-shadow: 0 0 10px #FB8F1D, 0 0 40px #FB8F1D, 0 0 80px #FB8F1D;
+}
+
+.buttons__register:hover{
+    color: white;
+    background: #1ABE84;
+    box-shadow: 0 0 10px #1ABE84, 0 0 40px #1ABE84, 0 0 80px #1ABE84;
+}
+
+@media screen and (max-width: 768px) { 
+    .container {
+        margin: 0;
+    }
+    .toggle-button {
+        display: flex;
+    }
+    .header__nav {
+        display: none;
+        width: 100%;
+    }
+    .header__nav ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .header__nav li {
+        text-align: center;
+        height: 30px;
+    }
+    .header__nav.active {
+        display: flex;
+        background-color: antiquewhite;
+        padding-left: 16px;
+    }
+    .buttons.active {
+        display: none;
+    }
+    .header.active {
+        padding-bottom: 30px;
+    }
+    .guide__paragraph.active {
+        padding: 5px;
+    }
+    .guide__button.active {
+        margin-top: 10px;
+    }
+    /* .header__nav-link.active a{
+        margin-right: 0%;
+    } */
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 140px;
+        background-color: #ffffff;
+    }
+    .buttons {
+        padding-left: 170px;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons__login {
+        border: none;
+        border-color: none;
+        font-size: .9em;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .buttons__register {
+        opacity: 0.7;
+        font-size: .9em;
+        height: 25px;
+        margin: 0;
+    }
+    .logo-ellipse {
+        display: none;
+        opacity: 0.2;
+        padding: 6px 11px;
+    }
+
+    .guide {
+        padding: 20px 15px;
+    }
+    .guide__left {
+        height: fit-content;
+        text-align: center;
+    }
+    .guide__right {
+        display: none;
+    }
+    .guide__title {
+        margin: 0;
+    }
+}
