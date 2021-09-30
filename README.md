@@ -1,1 +1,1 @@
-# Web-programming-Lab-1
+# Web-programming-Labs-part-1
