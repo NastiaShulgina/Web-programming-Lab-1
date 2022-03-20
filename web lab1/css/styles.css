@@ -1,0 +1,11 @@
+@import "./normilize.min.css";
+
+@import "./globals.css";
+
+@import "./header.css";
+
+@import"./testimonials.css";
+
+@import"./trending-stories.css";
+
+@import"./footer.css";
